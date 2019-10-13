@@ -1,0 +1,24 @@
+{
+  "name": "files_ocd_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/app.js",
+    "run": "node build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lowdb": "^1.0.9",
+    "@types/node": "^12.7.12",
+    "chokidar": "^3.2.1",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}

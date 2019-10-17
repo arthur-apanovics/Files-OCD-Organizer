@@ -1,6 +1,6 @@
-import lowdb from "lowdb";
-import FileSync from "lowdb/adapters/FileSync";
-import { IFileMappingConfig } from "./fileUtil";
+import lowdb from 'lowdb';
+import FileSync from 'lowdb/adapters/FileSync';
+import { IFileMappingConfig } from './fileUtil';
 
 export interface IConfig {
   downloadsDirectory: string;
@@ -9,175 +9,195 @@ export interface IConfig {
   fileTypeMappings: IFileMappingConfig[];
 }
 
-export interface FileLogEntry {
+interface ILogEntry {
   timestamp: Date;
+}
+
+export interface IFileLogEntry extends ILogEntry {
   file: string;
+  operation: 'move' | 'skip';
   originalDirectory: string;
   newDirectory: string;
 }
 
+export interface IApplicationLogEntry extends ILogEntry {
+  entry: string;
+}
+
+export interface IExceptionLogEntry extends ILogEntry {
+  message: string;
+  stackTrace: string[];
+}
+
 let Database: lowdb.LowdbSync<any>;
-const adapter = new FileSync("build/db.json");
+const adapter = new FileSync('build/db.json');
 Database = lowdb(adapter);
 
-let defaults: { config: IConfig; fileLogs: FileLogEntry[] } = {
+let defaults: {
+  config: IConfig;
+  appLog: IApplicationLogEntry[];
+  fileLog: IFileLogEntry[];
+  exceptionLog: IExceptionLogEntry[];
+} = {
   config: {
-    downloadsDirectory: "D:/Downloads",
+    downloadsDirectory: 'D:/Downloads',
     sortExisitngFiles: false,
     moveUnknownFiles: false,
     fileTypeMappings: [
-      { type: "unknown", targetDirectory: "unknown", extensions: ["?"] },
+      { type: 'unknown', targetDirectory: 'unknown', extensions: ['?'] },
       {
-        type: "image",
-        targetDirectory: "images",
+        type: 'image',
+        targetDirectory: 'images',
         extensions: [
-          "jpg",
-          "png",
-          "gif",
-          "webp",
-          "tiff",
-          "psd",
-          "raw",
-          "bmp",
-          "heif",
-          "indd",
-          "svg",
-          "eps",
-          "icns",
-          "ico"
+          'jpg',
+          'png',
+          'gif',
+          'webp',
+          'tiff',
+          'psd',
+          'raw',
+          'bmp',
+          'heif',
+          'indd',
+          'svg',
+          'eps',
+          'icns',
+          'ico'
         ]
       },
       {
-        type: "video",
-        targetDirectory: "videos",
+        type: 'video',
+        targetDirectory: 'videos',
         extensions: [
-          "3g2",
-          "3gp",
-          "avi",
-          "flv",
-          "h264",
-          "m4v",
-          "mkv",
-          "mov",
-          "mp4",
-          "mpg",
-          "rm",
-          "swf",
-          "vob",
-          "wmv"
+          '3g2',
+          '3gp',
+          'avi',
+          'flv',
+          'h264',
+          'm4v',
+          'mkv',
+          'mov',
+          'mp4',
+          'mpg',
+          'rm',
+          'swf',
+          'vob',
+          'wmv'
+        ]
+      },
+      // {
+      //   type: "executable",
+      //   targetDirectory: "executables",
+      //   extensions: [
+      //     "bat",
+      //     "bin",
+      //     "cgi",
+      //     "com",
+      //     "exe",
+      //     "gadget",
+      //     "jar",
+      //     "py",
+      //     "wsf"
+      //   ]
+      // },
+      {
+        type: 'installers',
+        targetDirectory: 'installers',
+        extensions: ['apk', 'msi', 'exe']
+      },
+      {
+        type: 'audio',
+        targetDirectory: 'audio',
+        extensions: [
+          'aif',
+          'cda',
+          'mid',
+          'mp3',
+          'mpa',
+          'ogg',
+          'wav',
+          'wma',
+          'wpl'
         ]
       },
       {
-        type: "executable",
-        targetDirectory: "executables",
+        type: 'archive',
+        targetDirectory: 'archives',
+        extensions: ['7z', 'arj', 'deb', 'pkg', 'rar', 'rpm', 'tar', 'z', 'zip']
+      },
+      {
+        type: 'font',
+        targetDirectory: 'fonts',
+        extensions: ['fnt', 'fon', 'otf', 'ttf']
+      },
+      {
+        type: 'source-code',
+        targetDirectory: 'source-code',
         extensions: [
-          "bat",
-          "bin",
-          "cgi",
-          "com",
-          "exe",
-          "gadget",
-          "jar",
-          "py",
-          "wsf"
+          'c',
+          'class',
+          'cpp',
+          'cs',
+          'h',
+          'java',
+          'sh',
+          'swift',
+          'vb',
+          'cfg',
+          'ini'
         ]
       },
       {
-        type: "installers",
-        targetDirectory: "installers",
-        extensions: ["apk", "msi"]
+        type: 'presentation',
+        targetDirectory: 'office/presentations',
+        extensions: ['key', 'odp', 'pps', 'ppt', 'pptx']
       },
       {
-        type: "audio",
-        targetDirectory: "audio",
+        type: 'spreadsheet',
+        targetDirectory: 'office/spreadsheets',
+        extensions: ['ods', 'xlr', 'xls', 'xlsx']
+      },
+      {
+        type: 'word-processor',
+        targetDirectory: 'office/documents',
         extensions: [
-          "aif",
-          "cda",
-          "mid",
-          "mp3",
-          "mpa",
-          "ogg",
-          "wav",
-          "wma",
-          "wpl"
+          'doc',
+          'docx',
+          'odt',
+          'pdf',
+          'rtf',
+          'tex',
+          'txt',
+          'wks',
+          'wpd'
         ]
       },
       {
-        type: "archive",
-        targetDirectory: "archives",
-        extensions: ["7z", "arj", "deb", "pkg", "rar", "rpm", "tar", "z", "zip"]
-      },
-      {
-        type: "font",
-        targetDirectory: "fonts",
-        extensions: ["fnt", "fon", "otf", "ttf"]
-      },
-      {
-        type: "source-code",
-        targetDirectory: "source-code",
+        type: 'system',
+        targetDirectory: 'system',
         extensions: [
-          "c",
-          "class",
-          "cpp",
-          "cs",
-          "h",
-          "java",
-          "sh",
-          "swift",
-          "vb",
-          "cfg",
-          "ini"
+          'bak',
+          'cab',
+          'cpl',
+          'cur',
+          'dll',
+          'dmp',
+          'drv',
+          'lnk',
+          'sys',
+          'tmp'
         ]
       },
       {
-        type: "presentation",
-        targetDirectory: "office/presentations",
-        extensions: ["key", "odp", "pps", "ppt", "pptx"]
-      },
-      {
-        type: "spreadsheet",
-        targetDirectory: "office/spreadsheets",
-        extensions: ["ods", "xlr", "xls", "xlsx"]
-      },
-      {
-        type: "word-processor",
-        targetDirectory: "office/documents",
-        extensions: [
-          "doc",
-          "docx",
-          "odt",
-          "pdf",
-          "rtf",
-          "tex",
-          "txt",
-          "wks",
-          "wpd"
-        ]
-      },
-      {
-        type: "system",
-        targetDirectory: "system",
-        extensions: [
-          "bak",
-          "cab",
-          "cpl",
-          "cur",
-          "dll",
-          "dmp",
-          "drv",
-          "lnk",
-          "sys",
-          "tmp"
-        ]
-      },
-      {
-        type: "p2p",
-        targetDirectory: "arrrgh",
-        extensions: [".torrent"]
+        type: 'p2p',
+        targetDirectory: 'arrrgh',
+        extensions: ['.torrent']
       }
     ]
   },
-  fileLogs: []
+  appLog: [],
+  fileLog: [],
+  exceptionLog: []
 };
 
 Database.defaults(defaults).write();

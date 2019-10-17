@@ -1,5 +1,5 @@
-import database, { IConfig } from "./database";
-import { Dirent } from "fs";
+import database, { IConfig } from './database';
+import { Dirent } from 'fs';
 
 export interface IFileMappingConfig {
   type: string;
@@ -9,7 +9,7 @@ export interface IFileMappingConfig {
 
 type DirentPlus = Dirent & { extension: string };
 
-let __config: IConfig = database.get("config").value();
+let __config: IConfig = database.get('config').value();
 
 export class FileUtil {
   static get pathMappings(): IFileMappingConfig[] {
@@ -19,7 +19,7 @@ export class FileUtil {
   }
   static get unknownPathMapping(): IFileMappingConfig {
     if (!this._unknownPathMapping) {
-      let mapping = FileUtil.pathMappings.find(({ type }) => type == "unknown");
+      let mapping = FileUtil.pathMappings.find(({ type }) => type == 'unknown');
       if (!mapping) {
         throw new Error('"unknown" file mapping not defined');
       }
@@ -29,7 +29,7 @@ export class FileUtil {
     return this._unknownPathMapping;
   }
 
-  public static readonly configKey: string = "fileTypeMappings";
+  public static readonly configKey: string = 'fileTypeMappings';
 
   private static _pathMappings: IFileMappingConfig[];
   private static _unknownPathMapping: IFileMappingConfig;
@@ -37,7 +37,7 @@ export class FileUtil {
   public static findConfigForFileExtension(
     extension: string
   ): IFileMappingConfig {
-    extension = extension.replace(".", "");
+    extension = extension.replace('.', '');
 
     return (
       FileUtil.pathMappings.find(({ extensions }) =>
@@ -62,7 +62,7 @@ export class FileUtil {
     let filesPlus: DirentPlus[] = Array.from(files, file => {
       return Object.assign(file, {
         extension: file.name.substr(
-          file.name.lastIndexOf(".") + 1,
+          file.name.lastIndexOf('.') + 1,
           file.name.length
         )
       });
@@ -74,7 +74,10 @@ export class FileUtil {
 
     for (let file of filesSorted) {
       let pathMappingConf = FileUtil.findConfigForFileExtension(file.extension);
-      if (pathMappingConf !== this._unknownPathMapping || __config.moveUnknownFiles) {
+      if (
+        pathMappingConf !== this._unknownPathMapping ||
+        __config.moveUnknownFiles
+      ) {
         FileUtil.moveFileByMappingConfig(file, pathMappingConf);
       } else {
         // todo log skipped file

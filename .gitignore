@@ -1,5 +1,7 @@
 build/
 
+db.json
+
 #IDE
 .idea
 

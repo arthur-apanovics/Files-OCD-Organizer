@@ -1,27 +1,70 @@
-import chokidar from 'chokidar';
-import { FileUtil } from './fileUtil';
-import fs from 'fs';
-import database, { IConfig } from './database';
+import Chokidar from 'chokidar';
+import FS from 'fs';
+import Database, { IConfig } from './database';
+import FileUtil from './fileUtil';
+import { ApplicationLogEntry, ExceptionLogEntry, Log } from "./log";
 
-const config: IConfig = database.get('config').value();
-
-let files = fs
-  .readdirSync(config.downloadsDirectory, { withFileTypes: true })
-  .filter(f => f.isFile());
-
-if (config.sortExisitngFiles) {
-  FileUtil.performInitialSort(files);
-}
-
-const fileWatcher = chokidar.watch(config.downloadsDirectory, {
+const fileWatchConfig = {
   depth: 0,
   ignoreInitial: true, // todo incorporate with config?
   awaitWriteFinish: {
-    pollInterval: 100, //def: 100
-    stabilityThreshold: 2000 //def: 2000
-  }
-});
+    pollInterval: 1000, // ms; def: 100
+    stabilityThreshold: 4000, // ms; def: 2000
+  },
+};
 
-fileWatcher.on('add', (file, stats) => {
-  console.log('File added?', file);
-});
+try
+{
+  const config: IConfig = Database.get('config').value();
+
+  // throw new Error('test');
+
+  if (config.sortExisitngFiles)
+  {
+    console.info('Moving existing files in the background...');
+
+    FS.readdir(config.downloadsDirectory, {
+      withFileTypes: true,
+    }, (err, files) =>
+    {
+      if (err)
+      {
+        throw err;
+      }
+
+      files = files.filter(f => f.isFile());
+      FileUtil.MoveFilesAsync(files)
+        .then((result) =>
+        {
+          Log(new ApplicationLogEntry
+          ('Finished moving existing files',
+            `${files.length} total files found`));
+        })
+        .catch(e => Log(new ExceptionLogEntry(
+          'Error while moving existing files',
+          `${e.message}`,
+          e.stack)));
+    });
+  }
+
+  const fileWatcher = Chokidar.watch(config.downloadsDirectory,
+    fileWatchConfig);
+  console.info(
+    `Watching directory "${config.downloadsDirectory}" for new files with config:`,
+    fileWatchConfig
+  );
+
+  fileWatcher.on('add', (file, stats) =>
+  {
+    FileUtil.ScheduleMoveFileAsync({
+        filePath: file,
+        stats: stats || FS.statSync(file)
+      }
+      , config.moveDelayInMinutes);
+  });
+}
+catch (e)
+{
+  Log(new ExceptionLogEntry('Fatal error', e.message, e.stack));
+  process.exit(1);
+}

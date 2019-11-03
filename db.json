@@ -1,0 +1,3589 @@
+{
+  "config": {
+    "downloadsDirectory": "D:/Downloads/",
+    "sortByYear": true,
+    "sortExisitngFiles": true,
+    "moveUnknownFiles": true,
+    "targetDirectoryPrefix": "_",
+    "moveDelayInMinutes": 5,
+    "fileTypeMappings": [
+      {
+        "type": "unknown",
+        "targetDirectory": "unknown",
+        "extensions": [
+          "?"
+        ]
+      },
+      {
+        "type": "image",
+        "targetDirectory": "images",
+        "extensions": [
+          "jpg",
+          "png",
+          "gif",
+          "webp",
+          "tiff",
+          "psd",
+          "raw",
+          "bmp",
+          "heif",
+          "indd",
+          "svg",
+          "eps",
+          "icns",
+          "ico"
+        ]
+      },
+      {
+        "type": "video",
+        "targetDirectory": "videos",
+        "extensions": [
+          "3g2",
+          "3gp",
+          "avi",
+          "flv",
+          "h264",
+          "m4v",
+          "mkv",
+          "mov",
+          "mp4",
+          "mpg",
+          "rm",
+          "swf",
+          "vob",
+          "wmv"
+        ]
+      },
+      {
+        "type": "installers",
+        "targetDirectory": "installers",
+        "extensions": [
+          "apk",
+          "msi",
+          "exe"
+        ]
+      },
+      {
+        "type": "audio",
+        "targetDirectory": "audio",
+        "extensions": [
+          "aif",
+          "cda",
+          "mid",
+          "mp3",
+          "mpa",
+          "ogg",
+          "wav",
+          "wma",
+          "wpl"
+        ]
+      },
+      {
+        "type": "archive",
+        "targetDirectory": "archives",
+        "extensions": [
+          "7z",
+          "arj",
+          "deb",
+          "pkg",
+          "rar",
+          "rpm",
+          "tar",
+          "z",
+          "zip"
+        ]
+      },
+      {
+        "type": "font",
+        "targetDirectory": "fonts",
+        "extensions": [
+          "fnt",
+          "fon",
+          "otf",
+          "ttf"
+        ]
+      },
+      {
+        "type": "source-code",
+        "targetDirectory": "source-code",
+        "extensions": [
+          "c",
+          "class",
+          "cpp",
+          "cs",
+          "h",
+          "java",
+          "sh",
+          "swift",
+          "vb",
+          "cfg",
+          "ini"
+        ]
+      },
+      {
+        "type": "presentation",
+        "targetDirectory": "office/presentations",
+        "extensions": [
+          "key",
+          "odp",
+          "pps",
+          "ppt",
+          "pptx"
+        ]
+      },
+      {
+        "type": "spreadsheet",
+        "targetDirectory": "office/spreadsheets",
+        "extensions": [
+          "ods",
+          "xlr",
+          "xls",
+          "xlsx"
+        ]
+      },
+      {
+        "type": "word-processor",
+        "targetDirectory": "office/documents",
+        "extensions": [
+          "doc",
+          "docx",
+          "odt",
+          "pdf",
+          "rtf",
+          "tex",
+          "txt",
+          "wks",
+          "wpd"
+        ]
+      },
+      {
+        "type": "system",
+        "targetDirectory": "system",
+        "extensions": [
+          "bak",
+          "cab",
+          "cpl",
+          "cur",
+          "dll",
+          "dmp",
+          "drv",
+          "lnk",
+          "sys",
+          "tmp"
+        ]
+      },
+      {
+        "type": "p2p",
+        "targetDirectory": "arrrgh",
+        "extensions": [
+          ".torrent"
+        ]
+      }
+    ]
+  },
+  "applicationLog": [
+    {
+      "timestamp": "2019-11-03T04:20:00.674Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_archives"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:00.681Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_archives/2018"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:24.785Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_installers"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:24.801Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_installers/2018"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.797Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_system"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.801Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_system/2018"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:10.515Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:12.717Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_unknown/2018"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:17.710Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_unknown/2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:24.758Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_unknown/2019"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:39.096Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_source-code"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:39.102Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_source-code/2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.384Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_unknown/2014"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.391Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_archives/2019"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:12.952Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/documents/2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:12.962Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/documents/2018"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.006Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/documents/2019"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.085Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_installers/2019"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.151Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_installers/2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.367Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_images/2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.453Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_source-code/2019"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.473Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_source-code/2014"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.484Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_source-code/2018"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.516Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_images/2018"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.540Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_images/2019"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.753Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_videos"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.773Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_videos/2019"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.595Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/presentations"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.600Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/presentations/2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.852Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/spreadsheets"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.859Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/spreadsheets/2019"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.970Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/spreadsheets/2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.980Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_office/spreadsheets/2018"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.226Z",
+      "entry": "Created new directory",
+      "additionalInformation": "D:/Downloads/_archives/2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.761Z",
+      "entry": "Finished moving existing files",
+      "additionalInformation": "400 total files found"
+    }
+  ],
+  "fileLog": [
+    {
+      "timestamp": "2019-11-03T04:20:24.774Z",
+      "file": "geek.7z",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/geek.7z",
+      "newDirectory": "D:/Downloads/_archives/2018/geek.7z"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:24.779Z",
+      "file": "fileSequence0.aac",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.768Z",
+      "file": "Pocket Casts_6.4.13.apk",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Pocket Casts_6.4.13.apk",
+      "newDirectory": "D:/Downloads/_installers/2018/Pocket Casts_6.4.13.apk"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.772Z",
+      "file": "ASSEMBLY_EXCEPTION",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.775Z",
+      "file": "unetbootin-linux64-661.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.779Z",
+      "file": "fusee-primary.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.782Z",
+      "file": "openwrt-ramips-mt7620-tplink_c2-v1-squashfs-factory.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.785Z",
+      "file": "fusee-primary_083.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.789Z",
+      "file": "ipl.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:20:29.793Z",
+      "file": "lede-ramips-mt7620-ArcherC2-squashfs-sysupgrade.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:21:42.058Z",
+      "file": "fileSequence0.aac",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:21:42.065Z",
+      "file": "ASSEMBLY_EXCEPTION",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:21:42.068Z",
+      "file": "ipl.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:21:42.072Z",
+      "file": "fusee-primary.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:21:42.075Z",
+      "file": "fusee-primary_083.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:21:42.078Z",
+      "file": "lede-ramips-mt7620-ArcherC2-squashfs-sysupgrade.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:21:42.081Z",
+      "file": "openwrt-ramips-mt7620-tplink_c2-v1-squashfs-factory.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:21:42.084Z",
+      "file": "unetbootin-linux64-661.bin",
+      "operation": "skip",
+      "originalDirectory": "D:/Downloads/",
+      "newDirectory": "unknown"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:17.704Z",
+      "file": "fileSequence0.aac",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/fileSequence0.aac",
+      "newDirectory": "D:/Downloads/_unknown/2018/fileSequence0.aac"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:23.096Z",
+      "file": "ASSEMBLY_EXCEPTION",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ASSEMBLY_EXCEPTION",
+      "newDirectory": "D:/Downloads/_unknown/2017/ASSEMBLY_EXCEPTION"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:24.106Z",
+      "file": "ipl.bin",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ipl.bin",
+      "newDirectory": "D:/Downloads/_unknown/2018/ipl.bin"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:24.753Z",
+      "file": "fusee-primary.bin",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/fusee-primary.bin",
+      "newDirectory": "D:/Downloads/_unknown/2018/fusee-primary.bin"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:25.731Z",
+      "file": "fusee-primary_083.bin",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/fusee-primary_083.bin",
+      "newDirectory": "D:/Downloads/_unknown/2019/fusee-primary_083.bin"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:29.389Z",
+      "file": "lede-ramips-mt7620-ArcherC2-squashfs-sysupgrade.bin",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/lede-ramips-mt7620-ArcherC2-squashfs-sysupgrade.bin",
+      "newDirectory": "D:/Downloads/_unknown/2019/lede-ramips-mt7620-ArcherC2-squashfs-sysupgrade.bin"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:36.533Z",
+      "file": "openwrt-ramips-mt7620-tplink_c2-v1-squashfs-factory.bin",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/openwrt-ramips-mt7620-tplink_c2-v1-squashfs-factory.bin",
+      "newDirectory": "D:/Downloads/_unknown/2019/openwrt-ramips-mt7620-tplink_c2-v1-squashfs-factory.bin"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:37.913Z",
+      "file": "unetbootin-linux64-661.bin",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/unetbootin-linux64-661.bin",
+      "newDirectory": "D:/Downloads/_unknown/2019/unetbootin-linux64-661.bin"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:39.091Z",
+      "file": "0285fc91-0c41-4b46-86cf-44dbe9a35eee_48fd7433b8469ca6d4b0567da348e0fe92392c13.cab",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/0285fc91-0c41-4b46-86cf-44dbe9a35eee_48fd7433b8469ca6d4b0567da348e0fe92392c13.cab",
+      "newDirectory": "D:/Downloads/_system/2018/0285fc91-0c41-4b46-86cf-44dbe9a35eee_48fd7433b8469ca6d4b0567da348e0fe92392c13.cab"
+    },
+    {
+      "timestamp": "2019-11-03T04:33:40.211Z",
+      "file": "poceni_pc_test_full_map (1) (1).cfg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/poceni_pc_test_full_map (1) (1).cfg",
+      "newDirectory": "D:/Downloads/_source-code/2017/poceni_pc_test_full_map (1) (1).cfg"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.240Z",
+      "file": "poceni_pc_test_full_map (1).cfg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/poceni_pc_test_full_map (1).cfg",
+      "newDirectory": "D:/Downloads/_source-code/2017/poceni_pc_test_full_map (1).cfg"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.246Z",
+      "file": "backupsettings DSL.conf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/backupsettings DSL.conf",
+      "newDirectory": "D:/Downloads/_unknown/2018/backupsettings DSL.conf"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.260Z",
+      "file": "backupsettings.conf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/backupsettings.conf",
+      "newDirectory": "D:/Downloads/_unknown/2018/backupsettings.conf"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.263Z",
+      "file": "Unconfirmed 794953.crdownload",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Unconfirmed 794953.crdownload",
+      "newDirectory": "D:/Downloads/_unknown/2017/Unconfirmed 794953.crdownload"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.266Z",
+      "file": "Unconfirmed 345424.crdownload",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Unconfirmed 345424.crdownload",
+      "newDirectory": "D:/Downloads/_unknown/2018/Unconfirmed 345424.crdownload"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.271Z",
+      "file": "tip_settings.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tip_settings.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/tip_settings.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.280Z",
+      "file": "gamingsystems_tip.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/gamingsystems_tip.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/gamingsystems_tip.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.293Z",
+      "file": "tax_tip_Sheet1.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tax_tip_Sheet1.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/tax_tip_Sheet1.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.295Z",
+      "file": "telekey-with-image-links-and-new-descript4.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/telekey-with-image-links-and-new-descript4.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/telekey-with-image-links-and-new-descript4.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.298Z",
+      "file": "dealerpricelist.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/dealerpricelist.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/dealerpricelist.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.301Z",
+      "file": "poceni_pc_11.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/poceni_pc_11.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/poceni_pc_11.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.307Z",
+      "file": "TI005Regularpetrolpumpprices.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/TI005Regularpetrolpumpprices.csv",
+      "newDirectory": "D:/Downloads/_unknown/2018/TI005Regularpetrolpumpprices.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.310Z",
+      "file": "Export20190516212051.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Export20190516212051.csv",
+      "newDirectory": "D:/Downloads/_unknown/2019/Export20190516212051.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.313Z",
+      "file": "Export20190516211724.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Export20190516211724.csv",
+      "newDirectory": "D:/Downloads/_unknown/2019/Export20190516211724.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.316Z",
+      "file": "edc_csv_nl.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/edc_csv_nl.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/edc_csv_nl.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.319Z",
+      "file": "tip_settings (1).csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tip_settings (1).csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/tip_settings (1).csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.321Z",
+      "file": "43bc854b-e59d-4a85-876a-728c5f40861a_logs.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/43bc854b-e59d-4a85-876a-728c5f40861a_logs.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/43bc854b-e59d-4a85-876a-728c5f40861a_logs.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.324Z",
+      "file": "dealerpricelist (1).csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/dealerpricelist (1).csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/dealerpricelist (1).csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.328Z",
+      "file": "tip_settings (2).csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tip_settings (2).csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/tip_settings (2).csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.354Z",
+      "file": "BUO502701_20181226_013523_91.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/BUO502701_20181226_013523_91.csv",
+      "newDirectory": "D:/Downloads/_unknown/2018/BUO502701_20181226_013523_91.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.359Z",
+      "file": "Hurtownia_eng.xml.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Hurtownia_eng.xml.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/Hurtownia_eng.xml.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.364Z",
+      "file": "sample1.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/sample1.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/sample1.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.369Z",
+      "file": "tip_settings (3).csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tip_settings (3).csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/tip_settings (3).csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.373Z",
+      "file": "tip_settings (4).csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tip_settings (4).csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/tip_settings (4).csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.377Z",
+      "file": "GoogleFeed.csv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/GoogleFeed.csv",
+      "newDirectory": "D:/Downloads/_unknown/2017/GoogleFeed.csv"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.381Z",
+      "file": "auth.default.db",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/auth.default.db",
+      "newDirectory": "D:/Downloads/_unknown/2019/auth.default.db"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.388Z",
+      "file": "Thumbs.db",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Thumbs.db",
+      "newDirectory": "D:/Downloads/_unknown/2014/Thumbs.db"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.395Z",
+      "file": "virtualbox-6.0_6.0.8-130520_Ubuntu_bionic_amd64.deb",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/virtualbox-6.0_6.0.8-130520_Ubuntu_bionic_amd64.deb",
+      "newDirectory": "D:/Downloads/_archives/2019/virtualbox-6.0_6.0.8-130520_Ubuntu_bionic_amd64.deb"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.399Z",
+      "file": "teamviewer_14.3.4730_amd64.deb",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/teamviewer_14.3.4730_amd64.deb",
+      "newDirectory": "D:/Downloads/_archives/2019/teamviewer_14.3.4730_amd64.deb"
+    },
+    {
+      "timestamp": "2019-11-03T04:34:09.404Z",
+      "file": "Design Patterns_ Elements of Reusable Object-Oriented Software  [Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides] (1994).djvu",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Design Patterns_ Elements of Reusable Object-Oriented Software  [Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides] (1994).djvu",
+      "newDirectory": "D:/Downloads/_unknown/2019/Design Patterns_ Elements of Reusable Object-Oriented Software  [Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides] (1994).djvu"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:12.958Z",
+      "file": "5.2.4 Exple resume D - semi prof posv0.2.doc",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/5.2.4 Exple resume D - semi prof posv0.2.doc",
+      "newDirectory": "D:/Downloads/_office/documents/2017/5.2.4 Exple resume D - semi prof posv0.2.doc"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:12.990Z",
+      "file": "Arthur's Support Letter.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Arthur's Support Letter.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2018/Arthur's Support Letter.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:12.999Z",
+      "file": "5. How to log in to Citrix Access Gateway using VeriSign.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/5. How to log in to Citrix Access Gateway using VeriSign.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2018/5. How to log in to Citrix Access Gateway using VeriSign.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.003Z",
+      "file": "ChatBot_Requirements_ACE-4-10-17.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ChatBot_Requirements_ACE-4-10-17.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2017/ChatBot_Requirements_ACE-4-10-17.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.012Z",
+      "file": "Template matching the qualification to the job tasks.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Template matching the qualification to the job tasks.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2019/Template matching the qualification to the job tasks.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.015Z",
+      "file": "nz_frenzy_south.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/nz_frenzy_south.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2018/nz_frenzy_south.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.020Z",
+      "file": "Ara_chatbot_specRecomendation.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Ara_chatbot_specRecomendation.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Ara_chatbot_specRecomendation.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.023Z",
+      "file": "Support Letter from Xiahui Sun.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Support Letter from Xiahui Sun.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2018/Support Letter from Xiahui Sun.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.026Z",
+      "file": "SJS-Web-Job-Cover.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/SJS-Web-Job-Cover.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2017/SJS-Web-Job-Cover.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.044Z",
+      "file": "ArtursApanovics&FionaLuo_Questionnaire_EOI.docx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ArtursApanovics&FionaLuo_Questionnaire_EOI.docx",
+      "newDirectory": "D:/Downloads/_office/documents/2018/ArtursApanovics&FionaLuo_Questionnaire_EOI.docx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.049Z",
+      "file": "download",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/download",
+      "newDirectory": "D:/Downloads/_unknown/2017/download"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.053Z",
+      "file": "Improve Your Conversations by Patrick King.epub",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Improve Your Conversations by Patrick King.epub",
+      "newDirectory": "D:/Downloads/_unknown/2019/Improve Your Conversations by Patrick King.epub"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.056Z",
+      "file": "Thinking, Fast and Slow - Daniel Kahneman.epub",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Thinking, Fast and Slow - Daniel Kahneman.epub",
+      "newDirectory": "D:/Downloads/_unknown/2019/Thinking, Fast and Slow - Daniel Kahneman.epub"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.061Z",
+      "file": "The Introvert Entrepreneur by Beth L. Buelow.epub",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/The Introvert Entrepreneur by Beth L. Buelow.epub",
+      "newDirectory": "D:/Downloads/_unknown/2019/The Introvert Entrepreneur by Beth L. Buelow.epub"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.068Z",
+      "file": "Haishi Bai_ Steve Maier_ Dan Stolts - Exam Ref 70-535 Architecting Microsoft Azure Solutions-Microsoft Press (2018).epub",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Haishi Bai_ Steve Maier_ Dan Stolts - Exam Ref 70-535 Architecting Microsoft Azure Solutions-Microsoft Press (2018).epub",
+      "newDirectory": "D:/Downloads/_unknown/2018/Haishi Bai_ Steve Maier_ Dan Stolts - Exam Ref 70-535 Architecting Microsoft Azure Solutions-Microsoft Press (2018).epub"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.075Z",
+      "file": "Taking the Work Out of Networking - Karen Wickre.epub",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Taking the Work Out of Networking - Karen Wickre.epub",
+      "newDirectory": "D:/Downloads/_unknown/2019/Taking the Work Out of Networking - Karen Wickre.epub"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.080Z",
+      "file": "Self-Promotion_for_Introverts__Th(z-lib.org).epub",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Self-Promotion_for_Introverts__Th(z-lib.org).epub",
+      "newDirectory": "D:/Downloads/_unknown/2019/Self-Promotion_for_Introverts__Th(z-lib.org).epub"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.089Z",
+      "file": "Git-2.23.0-64-bit.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Git-2.23.0-64-bit.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/Git-2.23.0-64-bit.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.095Z",
+      "file": "AltDrag-1.1 - Copy - Copy.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/AltDrag-1.1 - Copy - Copy.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/AltDrag-1.1 - Copy - Copy.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.101Z",
+      "file": "AltDrag-1.1 - Copy.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/AltDrag-1.1 - Copy.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/AltDrag-1.1 - Copy.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.105Z",
+      "file": "AltDrag-1.1.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/AltDrag-1.1.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/AltDrag-1.1.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.108Z",
+      "file": "PeaceSetup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/PeaceSetup.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/PeaceSetup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.111Z",
+      "file": "Anaconda3-2019.07-Windows-x86_64.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Anaconda3-2019.07-Windows-x86_64.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/Anaconda3-2019.07-Windows-x86_64.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.116Z",
+      "file": "Anaconda3-5.3.1-Windows-x86_64.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Anaconda3-5.3.1-Windows-x86_64.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/Anaconda3-5.3.1-Windows-x86_64.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.121Z",
+      "file": "FiddlerSetup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/FiddlerSetup.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/FiddlerSetup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.126Z",
+      "file": "FiddlerSetup (1).exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/FiddlerSetup (1).exe",
+      "newDirectory": "D:/Downloads/_installers/2019/FiddlerSetup (1).exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.129Z",
+      "file": "WinMerge-2.14.0-Setup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/WinMerge-2.14.0-Setup.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/WinMerge-2.14.0-Setup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.133Z",
+      "file": "Fences3-sd-setup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Fences3-sd-setup.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/Fences3-sd-setup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.137Z",
+      "file": "picpick_inst.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/picpick_inst.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/picpick_inst.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.140Z",
+      "file": "EqualizerAPO64-1.2.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/EqualizerAPO64-1.2.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/EqualizerAPO64-1.2.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.146Z",
+      "file": "epydoc-3.0.1.win32.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/epydoc-3.0.1.win32.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/epydoc-3.0.1.win32.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.158Z",
+      "file": "networx_setup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/networx_setup.exe",
+      "newDirectory": "D:/Downloads/_installers/2017/networx_setup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.166Z",
+      "file": "wampserver3.1.9_x64.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/wampserver3.1.9_x64.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/wampserver3.1.9_x64.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.169Z",
+      "file": "417.71-notebook-win10-64bit-international-whql.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/417.71-notebook-win10-64bit-international-whql.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/417.71-notebook-win10-64bit-international-whql.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.172Z",
+      "file": "Wireshark-win64-3.0.6.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Wireshark-win64-3.0.6.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/Wireshark-win64-3.0.6.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.176Z",
+      "file": "NDP471-DevPack-ENU.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/NDP471-DevPack-ENU.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/NDP471-DevPack-ENU.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.180Z",
+      "file": "vs_enterprise.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/vs_enterprise.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/vs_enterprise.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.186Z",
+      "file": "dotnet-sdk-2.2.104-win-x64.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/dotnet-sdk-2.2.104-win-x64.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/dotnet-sdk-2.2.104-win-x64.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.190Z",
+      "file": "python-3.6.8-amd64.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/python-3.6.8-amd64.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/python-3.6.8-amd64.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.194Z",
+      "file": "vs_enterprise (1).exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/vs_enterprise (1).exe",
+      "newDirectory": "D:/Downloads/_installers/2019/vs_enterprise (1).exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.200Z",
+      "file": "python-3.7.2-amd64.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/python-3.7.2-amd64.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/python-3.7.2-amd64.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.205Z",
+      "file": "DevCraftUltimateSetup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DevCraftUltimateSetup.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/DevCraftUltimateSetup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.209Z",
+      "file": "DeskScapes10_10.02c_setup_sd.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DeskScapes10_10.02c_setup_sd.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/DeskScapes10_10.02c_setup_sd.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.213Z",
+      "file": "R-3.5.1-win.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/R-3.5.1-win.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/R-3.5.1-win.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.217Z",
+      "file": "RStudio-1.1.463.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/RStudio-1.1.463.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/RStudio-1.1.463.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.221Z",
+      "file": "cuda_9.0.176_win10_network.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/cuda_9.0.176_win10_network.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/cuda_9.0.176_win10_network.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.224Z",
+      "file": "cuda_9.0.176.4_windows.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/cuda_9.0.176.4_windows.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/cuda_9.0.176.4_windows.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.229Z",
+      "file": "copyq-v3.9.2-setup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/copyq-v3.9.2-setup.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/copyq-v3.9.2-setup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.233Z",
+      "file": "setup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/setup.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/setup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.237Z",
+      "file": "VirtualBox-6.0.4-128413-Win.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/VirtualBox-6.0.4-128413-Win.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/VirtualBox-6.0.4-128413-Win.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.241Z",
+      "file": "Setup.x86.en-US_ProPlusRetail_JNR2H-84JYF-3K624-8QTBG-MKMVH_TX_SG_act_1_.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Setup.x86.en-US_ProPlusRetail_JNR2H-84JYF-3K624-8QTBG-MKMVH_TX_SG_act_1_.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/Setup.x86.en-US_ProPlusRetail_JNR2H-84JYF-3K624-8QTBG-MKMVH_TX_SG_act_1_.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.245Z",
+      "file": "vc_redist.x64.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/vc_redist.x64.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/vc_redist.x64.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.249Z",
+      "file": "vcredist_x64.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/vcredist_x64.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/vcredist_x64.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.252Z",
+      "file": "Ninite 7Zip Chrome Google Backup and Sync Installer.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Ninite 7Zip Chrome Google Backup and Sync Installer.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/Ninite 7Zip Chrome Google Backup and Sync Installer.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.256Z",
+      "file": "SQLServer2017-SSEI-Expr.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/SQLServer2017-SSEI-Expr.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/SQLServer2017-SSEI-Expr.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.260Z",
+      "file": "SteamSetup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/SteamSetup.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/SteamSetup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.264Z",
+      "file": "nmap-7.80-setup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/nmap-7.80-setup.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/nmap-7.80-setup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.269Z",
+      "file": "ChromeSetup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ChromeSetup.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/ChromeSetup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.273Z",
+      "file": "installbackupandsync.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/installbackupandsync.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/installbackupandsync.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.277Z",
+      "file": "ChromeSetup (1).exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ChromeSetup (1).exe",
+      "newDirectory": "D:/Downloads/_installers/2018/ChromeSetup (1).exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.282Z",
+      "file": "Wireshark-win64-3.0.1.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Wireshark-win64-3.0.1.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/Wireshark-win64-3.0.1.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.285Z",
+      "file": "teracopy.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/teracopy.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/teracopy.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.290Z",
+      "file": "Groupy1.25_setup_sd.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Groupy1.25_setup_sd.exe",
+      "newDirectory": "D:/Downloads/_installers/2019/Groupy1.25_setup_sd.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.294Z",
+      "file": "GoogleEarthProSetup.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/GoogleEarthProSetup.exe",
+      "newDirectory": "D:/Downloads/_installers/2018/GoogleEarthProSetup.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.298Z",
+      "file": "acrosync_installer_win64_1.6_582.exe",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/acrosync_installer_win64_1.6_582.exe",
+      "newDirectory": "D:/Downloads/_installers/2017/acrosync_installer_win64_1.6_582.exe"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.330Z",
+      "file": "full_headless_beforeunload_FAIL",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/full_headless_beforeunload_FAIL",
+      "newDirectory": "D:/Downloads/_unknown/2019/full_headless_beforeunload_FAIL"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.335Z",
+      "file": "full_headless_beforeunload_SUCCESS",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/full_headless_beforeunload_SUCCESS",
+      "newDirectory": "D:/Downloads/_unknown/2019/full_headless_beforeunload_SUCCESS"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.371Z",
+      "file": "ezgif.com-optimize.gif",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ezgif.com-optimize.gif",
+      "newDirectory": "D:/Downloads/_images/2017/ezgif.com-optimize.gif"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.375Z",
+      "file": "Sep-2017.tar.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Sep-2017.tar.gz",
+      "newDirectory": "D:/Downloads/_unknown/2017/Sep-2017.tar.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.378Z",
+      "file": "youidesign_oc1.sql.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/youidesign_oc1.sql.gz",
+      "newDirectory": "D:/Downloads/_unknown/2017/youidesign_oc1.sql.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.382Z",
+      "file": "backup-LEDE-2019-04-09.tar.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/backup-LEDE-2019-04-09.tar.gz",
+      "newDirectory": "D:/Downloads/_unknown/2019/backup-LEDE-2019-04-09.tar.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.385Z",
+      "file": "backup-OpenWrt-2019-04-08.tar.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/backup-OpenWrt-2019-04-08.tar.gz",
+      "newDirectory": "D:/Downloads/_unknown/2019/backup-OpenWrt-2019-04-08.tar.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.388Z",
+      "file": "nedis_catalog_2017-09-25_en_GB_1831_v1-0_xml.xml.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/nedis_catalog_2017-09-25_en_GB_1831_v1-0_xml.xml.gz",
+      "newDirectory": "D:/Downloads/_unknown/2017/nedis_catalog_2017-09-25_en_GB_1831_v1-0_xml.xml.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.392Z",
+      "file": "backup-LEDE-2019-07-01.tar.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/backup-LEDE-2019-07-01.tar.gz",
+      "newDirectory": "D:/Downloads/_unknown/2019/backup-LEDE-2019-07-01.tar.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.395Z",
+      "file": "backup-LEDE-2019-06-10.tar.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/backup-LEDE-2019-06-10.tar.gz",
+      "newDirectory": "D:/Downloads/_unknown/2019/backup-LEDE-2019-06-10.tar.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.399Z",
+      "file": "a1034366_sebtsi.sql.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/a1034366_sebtsi.sql.gz",
+      "newDirectory": "D:/Downloads/_unknown/2017/a1034366_sebtsi.sql.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.402Z",
+      "file": "backup-LEDE-2019-04-13.tar.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/backup-LEDE-2019-04-13.tar.gz",
+      "newDirectory": "D:/Downloads/_unknown/2019/backup-LEDE-2019-04-13.tar.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.418Z",
+      "file": "netflix-proxy-latest.tar.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/netflix-proxy-latest.tar.gz",
+      "newDirectory": "D:/Downloads/_unknown/2019/netflix-proxy-latest.tar.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.422Z",
+      "file": "backup-5G_LEDE-2019-04-08.tar.gz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/backup-5G_LEDE-2019-04-08.tar.gz",
+      "newDirectory": "D:/Downloads/_unknown/2019/backup-5G_LEDE-2019-04-08.tar.gz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.426Z",
+      "file": "Extensions.htm",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Extensions.htm",
+      "newDirectory": "D:/Downloads/_unknown/2017/Extensions.htm"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.429Z",
+      "file": "auction-1889718825.htm",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/auction-1889718825.htm",
+      "newDirectory": "D:/Downloads/_unknown/2018/auction-1889718825.htm"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.433Z",
+      "file": "Total Import PRO.htm",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Total Import PRO.htm",
+      "newDirectory": "D:/Downloads/_unknown/2017/Total Import PRO.htm"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.436Z",
+      "file": "WERDZW50cmFsLkNlbnRyYWwgRGVza3RvcCAkUzExLTE0.ica",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/WERDZW50cmFsLkNlbnRyYWwgRGVza3RvcCAkUzExLTE0.ica",
+      "newDirectory": "D:/Downloads/_unknown/2018/WERDZW50cmFsLkNlbnRyYWwgRGVza3RvcCAkUzExLTE0.ica"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.440Z",
+      "file": "WERDZW50cmFsLkNlbnRyYWwgRGVza3RvcCAkUzExLTE0 (1).ica",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/WERDZW50cmFsLkNlbnRyYWwgRGVza3RvcCAkUzExLTE0 (1).ica",
+      "newDirectory": "D:/Downloads/_unknown/2018/WERDZW50cmFsLkNlbnRyYWwgRGVza3RvcCAkUzExLTE0 (1).ica"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.443Z",
+      "file": "New-logo_colour-1-173x300.jpg.icns",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/New-logo_colour-1-173x300.jpg.icns",
+      "newDirectory": "D:/Downloads/_images/2017/New-logo_colour-1-173x300.jpg.icns"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.446Z",
+      "file": "New-logo_colour-1-173x300.jpg.ico",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/New-logo_colour-1-173x300.jpg.ico",
+      "newDirectory": "D:/Downloads/_images/2017/New-logo_colour-1-173x300.jpg.ico"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.450Z",
+      "file": "travefy-trip-1337790-cal.ics",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/travefy-trip-1337790-cal.ics",
+      "newDirectory": "D:/Downloads/_unknown/2018/travefy-trip-1337790-cal.ics"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.457Z",
+      "file": "WinSCP (1).ini",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/WinSCP (1).ini",
+      "newDirectory": "D:/Downloads/_source-code/2019/WinSCP (1).ini"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.477Z",
+      "file": "desktop.ini",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/desktop.ini",
+      "newDirectory": "D:/Downloads/_source-code/2014/desktop.ini"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.481Z",
+      "file": "WinSCP.ini",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/WinSCP.ini",
+      "newDirectory": "D:/Downloads/_source-code/2019/WinSCP.ini"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.488Z",
+      "file": "hekate_ipl.ini",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/hekate_ipl.ini",
+      "newDirectory": "D:/Downloads/_source-code/2018/hekate_ipl.ini"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.491Z",
+      "file": "Win10_1809Oct_v2_English_x64.iso",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Win10_1809Oct_v2_English_x64.iso",
+      "newDirectory": "D:/Downloads/_unknown/2019/Win10_1809Oct_v2_English_x64.iso"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.496Z",
+      "file": "Win10_1903_V1_EnglishInternational_x64.iso",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Win10_1903_V1_EnglishInternational_x64.iso",
+      "newDirectory": "D:/Downloads/_unknown/2019/Win10_1903_V1_EnglishInternational_x64.iso"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.501Z",
+      "file": "screenshot.jpeg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/screenshot.jpeg",
+      "newDirectory": "D:/Downloads/_unknown/2017/screenshot.jpeg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.505Z",
+      "file": "chicago-monochrome.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/chicago-monochrome.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/chicago-monochrome.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.509Z",
+      "file": "698137.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/698137.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/698137.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.513Z",
+      "file": "020520121625.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/020520121625.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/020520121625.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.520Z",
+      "file": "gradients-3860x2160-colorful-creamy-vivid-4k-13791.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/gradients-3860x2160-colorful-creamy-vivid-4k-13791.jpg",
+      "newDirectory": "D:/Downloads/_images/2018/gradients-3860x2160-colorful-creamy-vivid-4k-13791.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.524Z",
+      "file": "oneplus-6-1920x1080-stock-colorful-gradients-4k-13922.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/oneplus-6-1920x1080-stock-colorful-gradients-4k-13922.jpg",
+      "newDirectory": "D:/Downloads/_images/2018/oneplus-6-1920x1080-stock-colorful-gradients-4k-13922.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.527Z",
+      "file": "oneplus-6-4560x2160-stock-colorful-gradients-4k-13922.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/oneplus-6-4560x2160-stock-colorful-gradients-4k-13922.jpg",
+      "newDirectory": "D:/Downloads/_images/2018/oneplus-6-4560x2160-stock-colorful-gradients-4k-13922.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.532Z",
+      "file": "colorful-4560x2160-gradients-oneplus-6-stock-4k-13923.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/colorful-4560x2160-gradients-oneplus-6-stock-4k-13923.jpg",
+      "newDirectory": "D:/Downloads/_images/2018/colorful-4560x2160-gradients-oneplus-6-stock-4k-13923.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.536Z",
+      "file": "18338677_1868386096808283_3933378_o.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/18338677_1868386096808283_3933378_o.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/18338677_1868386096808283_3933378_o.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.544Z",
+      "file": "fortus_web_files_117.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/fortus_web_files_117.jpg",
+      "newDirectory": "D:/Downloads/_images/2019/fortus_web_files_117.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.559Z",
+      "file": "fortus_web_files_117 (1).jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/fortus_web_files_117 (1).jpg",
+      "newDirectory": "D:/Downloads/_images/2019/fortus_web_files_117 (1).jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.563Z",
+      "file": "unnamed.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/unnamed.jpg",
+      "newDirectory": "D:/Downloads/_images/2018/unnamed.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.568Z",
+      "file": "20181009_221157.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/20181009_221157.jpg",
+      "newDirectory": "D:/Downloads/_images/2018/20181009_221157.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.572Z",
+      "file": "screenshot.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/screenshot.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/screenshot.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.576Z",
+      "file": "donalds-tramps-48863021.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/donalds-tramps-48863021.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/donalds-tramps-48863021.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.580Z",
+      "file": "xaxaxixi_003.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/xaxaxixi_003.jpg",
+      "newDirectory": "D:/Downloads/_images/2019/xaxaxixi_003.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.602Z",
+      "file": "architecture-2267789_1920.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/architecture-2267789_1920.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/architecture-2267789_1920.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.607Z",
+      "file": "screenshot (1).jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/screenshot (1).jpg",
+      "newDirectory": "D:/Downloads/_images/2017/screenshot (1).jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.611Z",
+      "file": "fantail_pic.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/fantail_pic.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/fantail_pic.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.615Z",
+      "file": "IMG_20181025_002145.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/IMG_20181025_002145.jpg",
+      "newDirectory": "D:/Downloads/_images/2018/IMG_20181025_002145.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.618Z",
+      "file": "IMG_20170619_045452.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/IMG_20170619_045452.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/IMG_20170619_045452.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.621Z",
+      "file": "20170511_085733.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/20170511_085733.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/20170511_085733.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.627Z",
+      "file": "540884.jpg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/540884.jpg",
+      "newDirectory": "D:/Downloads/_images/2017/540884.jpg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.635Z",
+      "file": "full.json",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/full.json",
+      "newDirectory": "D:/Downloads/_unknown/2019/full.json"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.640Z",
+      "file": "DeviceList.json",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DeviceList.json",
+      "newDirectory": "D:/Downloads/_unknown/2018/DeviceList.json"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.654Z",
+      "file": "assessment.failed - resources_ - yes.json",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/assessment.failed - resources_ - yes.json",
+      "newDirectory": "D:/Downloads/_unknown/2017/assessment.failed - resources_ - yes.json"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.658Z",
+      "file": "h_fail.json",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/h_fail.json",
+      "newDirectory": "D:/Downloads/_unknown/2019/h_fail.json"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.662Z",
+      "file": "console.json",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/console.json",
+      "newDirectory": "D:/Downloads/_unknown/2019/console.json"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.665Z",
+      "file": "finance.hardship.gather_remaining_info.json",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/finance.hardship.gather_remaining_info.json",
+      "newDirectory": "D:/Downloads/_unknown/2017/finance.hardship.gather_remaining_info.json"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.669Z",
+      "file": "console (1).json",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/console (1).json",
+      "newDirectory": "D:/Downloads/_unknown/2019/console (1).json"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.673Z",
+      "file": "pwd.kdbx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/pwd.kdbx",
+      "newDirectory": "D:/Downloads/_unknown/2018/pwd.kdbx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.678Z",
+      "file": "North Island NZFrenzy (1).kml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/North Island NZFrenzy (1).kml",
+      "newDirectory": "D:/Downloads/_unknown/2018/North Island NZFrenzy (1).kml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.681Z",
+      "file": "North Island NZFrenzy.kml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/North Island NZFrenzy.kml",
+      "newDirectory": "D:/Downloads/_unknown/2017/North Island NZFrenzy.kml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.685Z",
+      "file": "Verhovsky trip.kmz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Verhovsky trip.kmz",
+      "newDirectory": "D:/Downloads/_unknown/2018/Verhovsky trip.kmz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.688Z",
+      "file": "North Island NZFrenzy (1).kmz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/North Island NZFrenzy (1).kmz",
+      "newDirectory": "D:/Downloads/_unknown/2018/North Island NZFrenzy (1).kmz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.694Z",
+      "file": "Christmas trip 2017.kmz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Christmas trip 2017.kmz",
+      "newDirectory": "D:/Downloads/_unknown/2017/Christmas trip 2017.kmz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.697Z",
+      "file": "North Island NZFrenzy.kmz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/North Island NZFrenzy.kmz",
+      "newDirectory": "D:/Downloads/_unknown/2017/North Island NZFrenzy.kmz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.700Z",
+      "file": "LICENSE",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/LICENSE",
+      "newDirectory": "D:/Downloads/_unknown/2017/LICENSE"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.704Z",
+      "file": "DI128.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DI128.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/DI128.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.707Z",
+      "file": "DI64.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DI64.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/DI64.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.710Z",
+      "file": "JR.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/JR.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/JR.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.714Z",
+      "file": "JR128.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/JR128.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/JR128.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.717Z",
+      "file": "DI-Premium-64kbit.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DI-Premium-64kbit.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/DI-Premium-64kbit.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.720Z",
+      "file": "DI Premium.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DI Premium.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/DI Premium.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.724Z",
+      "file": "JR64.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/JR64.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/JR64.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.727Z",
+      "file": "DI (1).m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DI (1).m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/DI (1).m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.732Z",
+      "file": "DI.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DI.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/DI.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.736Z",
+      "file": "DI-Premium-320kbps.m3u",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DI-Premium-320kbps.m3u",
+      "newDirectory": "D:/Downloads/_unknown/2018/DI-Premium-320kbps.m3u"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.743Z",
+      "file": "prog_index.m3u8",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/prog_index.m3u8",
+      "newDirectory": "D:/Downloads/_unknown/2018/prog_index.m3u8"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.746Z",
+      "file": "aits.mdb",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/aits.mdb",
+      "newDirectory": "D:/Downloads/_unknown/2017/aits.mdb"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.750Z",
+      "file": "the-road-to-learn-react.mobi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/the-road-to-learn-react.mobi",
+      "newDirectory": "D:/Downloads/_unknown/2019/the-road-to-learn-react.mobi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.778Z",
+      "file": "Pexels Videos 2851.mp4",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Pexels Videos 2851.mp4",
+      "newDirectory": "D:/Downloads/_videos/2019/Pexels Videos 2851.mp4"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.781Z",
+      "file": "mongodb-win32-x86_64-2008plus-ssl-4.0.4-signed.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/mongodb-win32-x86_64-2008plus-ssl-4.0.4-signed.msi",
+      "newDirectory": "D:/Downloads/_installers/2018/mongodb-win32-x86_64-2008plus-ssl-4.0.4-signed.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.785Z",
+      "file": "SwiftpointGT_20141209_2.0.2.1.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/SwiftpointGT_20141209_2.0.2.1.msi",
+      "newDirectory": "D:/Downloads/_installers/2019/SwiftpointGT_20141209_2.0.2.1.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.789Z",
+      "file": "MultiSwipeInstaller.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/MultiSwipeInstaller.msi",
+      "newDirectory": "D:/Downloads/_installers/2018/MultiSwipeInstaller.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.792Z",
+      "file": "openvpn-connect-2.6.0.100_signed.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/openvpn-connect-2.6.0.100_signed.msi",
+      "newDirectory": "D:/Downloads/_installers/2019/openvpn-connect-2.6.0.100_signed.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.795Z",
+      "file": "yarn-1.15.2.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/yarn-1.15.2.msi",
+      "newDirectory": "D:/Downloads/_installers/2019/yarn-1.15.2.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.800Z",
+      "file": "python-2.7.15.amd64.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/python-2.7.15.amd64.msi",
+      "newDirectory": "D:/Downloads/_installers/2018/python-2.7.15.amd64.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.805Z",
+      "file": "node-v10.16.3-x64.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/node-v10.16.3-x64.msi",
+      "newDirectory": "D:/Downloads/_installers/2019/node-v10.16.3-x64.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.808Z",
+      "file": "evoluent_mouse_manager_5.7.0.1.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/evoluent_mouse_manager_5.7.0.1.msi",
+      "newDirectory": "D:/Downloads/_installers/2019/evoluent_mouse_manager_5.7.0.1.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.812Z",
+      "file": "python-2.7.16.amd64.msi",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/python-2.7.16.amd64.msi",
+      "newDirectory": "D:/Downloads/_installers/2019/python-2.7.16.amd64.msi"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.817Z",
+      "file": "kezplez-nx.nacp",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/kezplez-nx.nacp",
+      "newDirectory": "D:/Downloads/_unknown/2018/kezplez-nx.nacp"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.821Z",
+      "file": "kezplez-nx (1).nro",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/kezplez-nx (1).nro",
+      "newDirectory": "D:/Downloads/_unknown/2018/kezplez-nx (1).nro"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.824Z",
+      "file": "kezplez-nx.nro",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/kezplez-nx.nro",
+      "newDirectory": "D:/Downloads/_unknown/2018/kezplez-nx.nro"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.828Z",
+      "file": "Among The Sleep Enhanced Edition [Softcobra.com][v0].nsp",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Among The Sleep Enhanced Edition [Softcobra.com][v0].nsp",
+      "newDirectory": "D:/Downloads/_unknown/2019/Among The Sleep Enhanced Edition [Softcobra.com][v0].nsp"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.832Z",
+      "file": "V-Rally 4 Update v1.2.0 [Softcobra.com].nsp",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/V-Rally 4 Update v1.2.0 [Softcobra.com].nsp",
+      "newDirectory": "D:/Downloads/_unknown/2019/V-Rally 4 Update v1.2.0 [Softcobra.com].nsp"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.836Z",
+      "file": "ACIIIR [Softcobra.com][Converted].nsp",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ACIIIR [Softcobra.com][Converted].nsp",
+      "newDirectory": "D:/Downloads/_unknown/2019/ACIIIR [Softcobra.com][Converted].nsp"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.840Z",
+      "file": "V-Rally 4 Update v1.2.0.nsp",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/V-Rally 4 Update v1.2.0.nsp",
+      "newDirectory": "D:/Downloads/_unknown/2019/V-Rally 4 Update v1.2.0.nsp"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.845Z",
+      "file": "gcp-ovpn.ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/gcp-ovpn.ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/gcp-ovpn.ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.849Z",
+      "file": "vpngate_aomsin28.opengw.net_tcp_992.ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/vpngate_aomsin28.opengw.net_tcp_992.ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/vpngate_aomsin28.opengw.net_tcp_992.ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.852Z",
+      "file": "client_autologin.ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/client_autologin.ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/client_autologin.ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.856Z",
+      "file": "vpngate_vpn898155442.opengw.net_udp_1378.ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/vpngate_vpn898155442.opengw.net_udp_1378.ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/vpngate_vpn898155442.opengw.net_udp_1378.ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.859Z",
+      "file": "client.ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/client.ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/client.ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.864Z",
+      "file": "gcp_vpn.ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/gcp_vpn.ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/gcp_vpn.ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.869Z",
+      "file": "client (1).ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/client (1).ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/client (1).ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.874Z",
+      "file": "client_user_locked.ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/client_user_locked.ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/client_user_locked.ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.919Z",
+      "file": "vpngate_184.82.96.148_tcp_992.ovpn",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/vpngate_184.82.96.148_tcp_992.ovpn",
+      "newDirectory": "D:/Downloads/_unknown/2019/vpngate_184.82.96.148_tcp_992.ovpn"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.926Z",
+      "file": "Packages",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Packages",
+      "newDirectory": "D:/Downloads/_unknown/2019/Packages"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.929Z",
+      "file": "order_59013.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/order_59013.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/order_59013.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.933Z",
+      "file": "GitNotesForProfessionals.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/GitNotesForProfessionals.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/GitNotesForProfessionals.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.937Z",
+      "file": "Adam Freeman (auth.) -  Pro ASP.NET Core MVC 2-Apress (2017).pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Adam Freeman (auth.) -  Pro ASP.NET Core MVC 2-Apress (2017).pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/Adam Freeman (auth.) -  Pro ASP.NET Core MVC 2-Apress (2017).pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.970Z",
+      "file": "DSED03.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DSED03.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/DSED03.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.975Z",
+      "file": "Agile 101 Practical Project Management.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Agile 101 Practical Project Management.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Agile 101 Practical Project Management.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.980Z",
+      "file": "ElectronicCardTransactionsMay17HOTP.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ElectronicCardTransactionsMay17HOTP.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/ElectronicCardTransactionsMay17HOTP.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.985Z",
+      "file": "Endeavour-Camper-12_16_2017-NZ.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Endeavour-Camper-12_16_2017-NZ.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Endeavour-Camper-12_16_2017-NZ.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.990Z",
+      "file": "EOI Questionaire.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/EOI Questionaire.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/EOI Questionaire.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:13.994Z",
+      "file": "115-396-307_INC_Personal Tax Summary_20170618.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/115-396-307_INC_Personal Tax Summary_20170618.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/115-396-307_INC_Personal Tax Summary_20170618.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.000Z",
+      "file": "115-396-307_INC_Return filing reminder_20170618.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/115-396-307_INC_Return filing reminder_20170618.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/115-396-307_INC_Return filing reminder_20170618.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.005Z",
+      "file": "Client Agreement-Arturs (1).pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Client Agreement-Arturs (1).pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/Client Agreement-Arturs (1).pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.025Z",
+      "file": "HJ_ArthurApanovics (1).pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/HJ_ArthurApanovics (1).pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/HJ_ArthurApanovics (1).pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.043Z",
+      "file": "HJ_ArthurApanovics backup.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/HJ_ArthurApanovics backup.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/HJ_ArthurApanovics backup.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.112Z",
+      "file": "HJ_ArthurApanovics.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/HJ_ArthurApanovics.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/HJ_ArthurApanovics.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.139Z",
+      "file": "hotel-sin-SIA E-Document  - 618 4554629196.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/hotel-sin-SIA E-Document  - 618 4554629196.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/hotel-sin-SIA E-Document  - 618 4554629196.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.175Z",
+      "file": "How To Use Moodle 2.7.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/How To Use Moodle 2.7.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/How To Use Moodle 2.7.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.236Z",
+      "file": "nzescape - 18 September 2017.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/nzescape - 18 September 2017.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/nzescape - 18 September 2017.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.241Z",
+      "file": "Client Agreement-Arturs.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Client Agreement-Arturs.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/Client Agreement-Arturs.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.248Z",
+      "file": "2017.10.02_A Apanovics_Internship Agreement.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/2017.10.02_A Apanovics_Internship Agreement.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/2017.10.02_A Apanovics_Internship Agreement.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.254Z",
+      "file": "Response to the PPI.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Response to the PPI.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/Response to the PPI.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.260Z",
+      "file": "Immigration Act 2009.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Immigration Act 2009.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/Immigration Act 2009.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.266Z",
+      "file": "receipt.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/receipt.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/receipt.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.273Z",
+      "file": "toptracker_2017_07_06_04_13.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/toptracker_2017_07_06_04_13.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/toptracker_2017_07_06_04_13.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.284Z",
+      "file": "Ticket_00019630.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Ticket_00019630.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/Ticket_00019630.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.311Z",
+      "file": "install.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/install.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/install.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.326Z",
+      "file": "PHPNotesForProfessionals.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/PHPNotesForProfessionals.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/PHPNotesForProfessionals.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.332Z",
+      "file": "Thinking,_Fast_and_Slow(BookFi).pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Thinking,_Fast_and_Slow(BookFi).pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/Thinking,_Fast_and_Slow(BookFi).pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.336Z",
+      "file": "12122017092723-0001.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/12122017092723-0001.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/12122017092723-0001.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.340Z",
+      "file": "NodeJSNotesForProfessionals.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/NodeJSNotesForProfessionals.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/NodeJSNotesForProfessionals.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.344Z",
+      "file": "115-396-307_INC_Notice of Refund_20170608.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/115-396-307_INC_Notice of Refund_20170608.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/115-396-307_INC_Notice of Refund_20170608.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.348Z",
+      "file": "Jade Software Corporation Information Security Policy.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Jade Software Corporation Information Security Policy.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Jade Software Corporation Information Security Policy.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.352Z",
+      "file": "JavaScriptNotesForProfessionals.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/JavaScriptNotesForProfessionals.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/JavaScriptNotesForProfessionals.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.356Z",
+      "file": "summary.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/summary.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/summary.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.360Z",
+      "file": "the-road-to-learn-react.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/the-road-to-learn-react.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/the-road-to-learn-react.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.364Z",
+      "file": "flight-SIA E-Ticket - 618 2421201671.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/flight-SIA E-Ticket - 618 2421201671.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/flight-SIA E-Ticket - 618 2421201671.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.368Z",
+      "file": "1439106.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/1439106.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/1439106.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.386Z",
+      "file": "invoice_apanovics_26-06-2017.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/invoice_apanovics_26-06-2017.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/invoice_apanovics_26-06-2017.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.391Z",
+      "file": "FoodPriceIndexMay17HOTP.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/FoodPriceIndexMay17HOTP.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/FoodPriceIndexMay17HOTP.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.396Z",
+      "file": "lake-sumner-lewis-pass.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/lake-sumner-lewis-pass.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/lake-sumner-lewis-pass.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.401Z",
+      "file": "AccommodationSurveyApr17HOTP.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/AccommodationSurveyApr17HOTP.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/AccommodationSurveyApr17HOTP.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.406Z",
+      "file": "apanovics_me.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/apanovics_me.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/apanovics_me.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.415Z",
+      "file": "PaySlip.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/PaySlip.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/PaySlip.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.419Z",
+      "file": "PaySlip (2).pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/PaySlip (2).pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/PaySlip (2).pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.423Z",
+      "file": "PaySlip (1).pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/PaySlip (1).pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2018/PaySlip (1).pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.427Z",
+      "file": "May2019_IEA_Arturs Apanovics - signed.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/May2019_IEA_Arturs Apanovics - signed.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/May2019_IEA_Arturs Apanovics - signed.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.431Z",
+      "file": "May2019_WebAdministrator_OfferLetter_ Arturs Apanovics.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/May2019_WebAdministrator_OfferLetter_ Arturs Apanovics.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/May2019_WebAdministrator_OfferLetter_ Arturs Apanovics.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.434Z",
+      "file": "Microsoft.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Microsoft.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Microsoft.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.438Z",
+      "file": "MOJ Third Party Conviction Form User Guide.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/MOJ Third Party Conviction Form User Guide.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/MOJ Third Party Conviction Form User Guide.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.442Z",
+      "file": "MOJ Third Party Conviction Form.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/MOJ Third Party Conviction Form.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/MOJ Third Party Conviction Form.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.448Z",
+      "file": "Application for Employment_JadeNZ_Dec 14.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Application for Employment_JadeNZ_Dec 14.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Application for Employment_JadeNZ_Dec 14.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.452Z",
+      "file": "Content - nzescape - 18 September 2017.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Content - nzescape - 18 September 2017.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Content - nzescape - 18 September 2017.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.455Z",
+      "file": "2004-subaru-outback-88564.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/2004-subaru-outback-88564.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/2004-subaru-outback-88564.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.459Z",
+      "file": "MySQLNotesForProfessionals.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/MySQLNotesForProfessionals.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/MySQLNotesForProfessionals.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.463Z",
+      "file": "Contractor Agreement - Arthur - Signed.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Contractor Agreement - Arthur - Signed.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Contractor Agreement - Arthur - Signed.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.469Z",
+      "file": "nedis connect implementation manual.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/nedis connect implementation manual.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/nedis connect implementation manual.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.474Z",
+      "file": "Contractor Agreement - Arthur backup.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Contractor Agreement - Arthur backup.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2017/Contractor Agreement - Arthur backup.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.478Z",
+      "file": "2006-outback.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/2006-outback.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/2006-outback.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.483Z",
+      "file": "Automating with Node.js.pdf",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Automating with Node.js.pdf",
+      "newDirectory": "D:/Downloads/_office/documents/2019/Automating with Node.js.pdf"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.488Z",
+      "file": "StreamlineStatement07Apr190123441000797660000MRAAPANOVICS.PDF",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/StreamlineStatement07Apr190123441000797660000MRAAPANOVICS.PDF",
+      "newDirectory": "D:/Downloads/_unknown/2019/StreamlineStatement07Apr190123441000797660000MRAAPANOVICS.PDF"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.492Z",
+      "file": "certificate.php",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/certificate.php",
+      "newDirectory": "D:/Downloads/_unknown/2018/certificate.php"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.496Z",
+      "file": "config.php",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/config.php",
+      "newDirectory": "D:/Downloads/_unknown/2019/config.php"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.500Z",
+      "file": "307bd223a61358b60c50eb257b0aae84092b3159.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/307bd223a61358b60c50eb257b0aae84092b3159.png",
+      "newDirectory": "D:/Downloads/_images/2017/307bd223a61358b60c50eb257b0aae84092b3159.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.508Z",
+      "file": "unnamed.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/unnamed.png",
+      "newDirectory": "D:/Downloads/_images/2017/unnamed.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.519Z",
+      "file": "colorful-5120x2880-smooth-gradient-hd-5k-14060.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/colorful-5120x2880-smooth-gradient-hd-5k-14060.png",
+      "newDirectory": "D:/Downloads/_images/2018/colorful-5120x2880-smooth-gradient-hd-5k-14060.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.526Z",
+      "file": "ara1.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ara1.png",
+      "newDirectory": "D:/Downloads/_images/2017/ara1.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.533Z",
+      "file": "ara2.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ara2.png",
+      "newDirectory": "D:/Downloads/_images/2017/ara2.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.538Z",
+      "file": "github.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/github.png",
+      "newDirectory": "D:/Downloads/_images/2017/github.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.542Z",
+      "file": "undies.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/undies.png",
+      "newDirectory": "D:/Downloads/_images/2017/undies.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.547Z",
+      "file": "dollar-symbol.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/dollar-symbol.png",
+      "newDirectory": "D:/Downloads/_images/2017/dollar-symbol.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.551Z",
+      "file": "dollar-symbol-1024.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/dollar-symbol-1024.png",
+      "newDirectory": "D:/Downloads/_images/2017/dollar-symbol-1024.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.558Z",
+      "file": "New-logo_colour-1-173x300.jpg_128x128.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/New-logo_colour-1-173x300.jpg_128x128.png",
+      "newDirectory": "D:/Downloads/_images/2017/New-logo_colour-1-173x300.jpg_128x128.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.562Z",
+      "file": "cassette.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/cassette.png",
+      "newDirectory": "D:/Downloads/_images/2017/cassette.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.567Z",
+      "file": "sock.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/sock.png",
+      "newDirectory": "D:/Downloads/_images/2017/sock.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.573Z",
+      "file": "Screenshot_20160926-113557.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Screenshot_20160926-113557.png",
+      "newDirectory": "D:/Downloads/_images/2017/Screenshot_20160926-113557.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.578Z",
+      "file": "screencapture-vshopper-ca-admin-index-php-1508224334079.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/screencapture-vshopper-ca-admin-index-php-1508224334079.png",
+      "newDirectory": "D:/Downloads/_images/2017/screencapture-vshopper-ca-admin-index-php-1508224334079.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.582Z",
+      "file": "ara3.png",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ara3.png",
+      "newDirectory": "D:/Downloads/_images/2017/ara3.png"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.586Z",
+      "file": "d06634bd9680bca5f3cdd5cf6e807d3991de8366.PNG",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/d06634bd9680bca5f3cdd5cf6e807d3991de8366.PNG",
+      "newDirectory": "D:/Downloads/_unknown/2019/d06634bd9680bca5f3cdd5cf6e807d3991de8366.PNG"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.590Z",
+      "file": "careerforce-CF_web1.ppk",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/careerforce-CF_web1.ppk",
+      "newDirectory": "D:/Downloads/_unknown/2019/careerforce-CF_web1.ppk"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.605Z",
+      "file": "Databases Intro.pptx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Databases Intro.pptx",
+      "newDirectory": "D:/Downloads/_office/presentations/2017/Databases Intro.pptx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.609Z",
+      "file": "AraBot.psd",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/AraBot.psd",
+      "newDirectory": "D:/Downloads/_images/2017/AraBot.psd"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.613Z",
+      "file": "AraBot (1).psd",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/AraBot (1).psd",
+      "newDirectory": "D:/Downloads/_images/2017/AraBot (1).psd"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.619Z",
+      "file": "ARA-BOT-POC.publishsettings",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ARA-BOT-POC.publishsettings",
+      "newDirectory": "D:/Downloads/_unknown/2017/ARA-BOT-POC.publishsettings"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.625Z",
+      "file": "Sniper Elite V2 Remastered N Update [Softcobra.com].rar",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Sniper Elite V2 Remastered N Update [Softcobra.com].rar",
+      "newDirectory": "D:/Downloads/_archives/2019/Sniper Elite V2 Remastered N Update [Softcobra.com].rar"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.630Z",
+      "file": "V-Rally 4 DLC Unlocker NSW-VENOM [010064400b13XXXX].rar",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/V-Rally 4 DLC Unlocker NSW-VENOM [010064400b13XXXX].rar",
+      "newDirectory": "D:/Downloads/_archives/2019/V-Rally 4 DLC Unlocker NSW-VENOM [010064400b13XXXX].rar"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.636Z",
+      "file": "zerotwoxci.rar",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/zerotwoxci.rar",
+      "newDirectory": "D:/Downloads/_archives/2018/zerotwoxci.rar"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.640Z",
+      "file": "Gone_Home & Update [Softcobra.com].rar",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Gone_Home & Update [Softcobra.com].rar",
+      "newDirectory": "D:/Downloads/_archives/2018/Gone_Home & Update [Softcobra.com].rar"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.646Z",
+      "file": "Turn_ON_Enhance_pointer_precision.reg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Turn_ON_Enhance_pointer_precision.reg",
+      "newDirectory": "D:/Downloads/_unknown/2018/Turn_ON_Enhance_pointer_precision.reg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.651Z",
+      "file": "Turn_OFF_Enhance_pointer_precision.reg",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Turn_OFF_Enhance_pointer_precision.reg",
+      "newDirectory": "D:/Downloads/_unknown/2018/Turn_OFF_Enhance_pointer_precision.reg"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.657Z",
+      "file": "release",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/release",
+      "newDirectory": "D:/Downloads/_unknown/2017/release"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.663Z",
+      "file": "Release (1)",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Release (1)",
+      "newDirectory": "D:/Downloads/_unknown/2019/Release (1)"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.668Z",
+      "file": "Resharper 2016-2017",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Resharper 2016-2017",
+      "newDirectory": "D:/Downloads/_unknown/2017/Resharper 2016-2017"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.673Z",
+      "file": "palette.scss",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/palette.scss",
+      "newDirectory": "D:/Downloads/_unknown/2019/palette.scss"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.678Z",
+      "file": "install (1).sh",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/install (1).sh",
+      "newDirectory": "D:/Downloads/_source-code/2019/install (1).sh"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.684Z",
+      "file": "install.sh",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/install.sh",
+      "newDirectory": "D:/Downloads/_source-code/2019/install.sh"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.689Z",
+      "file": "THIRD_PARTY_README",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/THIRD_PARTY_README",
+      "newDirectory": "D:/Downloads/_unknown/2017/THIRD_PARTY_README"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.694Z",
+      "file": "89645d4e-391e-4188-af73-87e34176d3b4.tmp",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/89645d4e-391e-4188-af73-87e34176d3b4.tmp",
+      "newDirectory": "D:/Downloads/_system/2018/89645d4e-391e-4188-af73-87e34176d3b4.tmp"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.702Z",
+      "file": "Splatoon_2_(USA)_(En,Fr,Es)_[Trimmed].torrent",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Splatoon_2_(USA)_(En,Fr,Es)_[Trimmed].torrent",
+      "newDirectory": "D:/Downloads/_unknown/2018/Splatoon_2_(USA)_(En,Fr,Es)_[Trimmed].torrent"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.710Z",
+      "file": "[Pluralsight] JavaScript Getting Started [2018, ENG] [rutracker-5510323].torrent",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/[Pluralsight] JavaScript Getting Started [2018, ENG] [rutracker-5510323].torrent",
+      "newDirectory": "D:/Downloads/_unknown/2018/[Pluralsight] JavaScript Getting Started [2018, ENG] [rutracker-5510323].torrent"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.723Z",
+      "file": "[Udemy] Modern JavaScript From The Beginning [2017, ENG] [rutracker-5496341].torrent",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/[Udemy] Modern JavaScript From The Beginning [2017, ENG] [rutracker-5496341].torrent",
+      "newDirectory": "D:/Downloads/_unknown/2018/[Udemy] Modern JavaScript From The Beginning [2017, ENG] [rutracker-5496341].torrent"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.735Z",
+      "file": "totara_rsa",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/totara_rsa",
+      "newDirectory": "D:/Downloads/_unknown/2019/totara_rsa"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.741Z",
+      "file": "welcome.ts",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/welcome.ts",
+      "newDirectory": "D:/Downloads/_unknown/2019/welcome.ts"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.747Z",
+      "file": "UserQuestions-File-01adb255-3faf-4bc5-8124-287eea0c7918-00560131102017.tsv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/UserQuestions-File-01adb255-3faf-4bc5-8124-287eea0c7918-00560131102017.tsv",
+      "newDirectory": "D:/Downloads/_unknown/2017/UserQuestions-File-01adb255-3faf-4bc5-8124-287eea0c7918-00560131102017.tsv"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.753Z",
+      "file": "UserQuestions-File-01adb255-3faf-4bc5-8124-287eea0c7918-21511423112017.tsv",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/UserQuestions-File-01adb255-3faf-4bc5-8124-287eea0c7918-21511423112017.tsv",
+      "newDirectory": "D:/Downloads/_unknown/2017/UserQuestions-File-01adb255-3faf-4bc5-8124-287eea0c7918-21511423112017.tsv"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.763Z",
+      "file": "loaderio-5efd93c585363a9e8984470675c4900f.txt",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/loaderio-5efd93c585363a9e8984470675c4900f.txt",
+      "newDirectory": "D:/Downloads/_office/documents/2017/loaderio-5efd93c585363a9e8984470675c4900f.txt"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.773Z",
+      "file": "Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack",
+      "newDirectory": "D:/Downloads/_unknown/2019/Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.780Z",
+      "file": "Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack",
+      "newDirectory": "D:/Downloads/_unknown/2019/Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.785Z",
+      "file": "darklounge_vlc_1.0.vlt",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/darklounge_vlc_1.0.vlt",
+      "newDirectory": "D:/Downloads/_unknown/2019/darklounge_vlc_1.0.vlt"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.846Z",
+      "file": "Silence (Eur) [Softcobra.com].xci",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Silence (Eur) [Softcobra.com].xci",
+      "newDirectory": "D:/Downloads/_unknown/2019/Silence (Eur) [Softcobra.com].xci"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.940Z",
+      "file": "UK-EU_EAST_18JUN-1JUL19.xls",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/UK-EU_EAST_18JUN-1JUL19.xls",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2019/UK-EU_EAST_18JUN-1JUL19.xls"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.974Z",
+      "file": "CarWash_cenulapa_c.xls",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/CarWash_cenulapa_c.xls",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2017/CarWash_cenulapa_c.xls"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.986Z",
+      "file": "BUO502701_20181226_013523_91.xls",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/BUO502701_20181226_013523_91.xls",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2018/BUO502701_20181226_013523_91.xls"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:14.993Z",
+      "file": "NZSQ_UK-EU_18JUN-1JUL19 (1).xls",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/NZSQ_UK-EU_18JUN-1JUL19 (1).xls",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2019/NZSQ_UK-EU_18JUN-1JUL19 (1).xls"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.000Z",
+      "file": "NZSQ_UK-EU_18JUN-1JUL19.xls",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/NZSQ_UK-EU_18JUN-1JUL19.xls",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2019/NZSQ_UK-EU_18JUN-1JUL19.xls"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.006Z",
+      "file": "Book1.xlsx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Book1.xlsx",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2017/Book1.xlsx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.015Z",
+      "file": "Chatbot upload sheet_A.xlsx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Chatbot upload sheet_A.xlsx",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2017/Chatbot upload sheet_A.xlsx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.021Z",
+      "file": "Chatbot upload sheet_A_QuestionsRefined.xlsx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Chatbot upload sheet_A_QuestionsRefined.xlsx",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2017/Chatbot upload sheet_A_QuestionsRefined.xlsx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.025Z",
+      "file": "Book3.xlsx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Book3.xlsx",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2017/Book3.xlsx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.030Z",
+      "file": "Bot_dataset_groups_v1.xlsx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Bot_dataset_groups_v1.xlsx",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2017/Bot_dataset_groups_v1.xlsx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.036Z",
+      "file": "4th batch of answers Thurs16Nov.xlsx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/4th batch of answers Thurs16Nov.xlsx",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2017/4th batch of answers Thurs16Nov.xlsx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.040Z",
+      "file": "Chatbot upload sheet_A_refinedForPilot.xlsx",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Chatbot upload sheet_A_refinedForPilot.xlsx",
+      "newDirectory": "D:/Downloads/_office/spreadsheets/2017/Chatbot upload sheet_A_refinedForPilot.xlsx"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.044Z",
+      "file": "Ftp a1034366.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Ftp a1034366.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/Ftp a1034366.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.048Z",
+      "file": "stock.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/stock.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/stock.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.055Z",
+      "file": "rss_test.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/rss_test.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/rss_test.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.064Z",
+      "file": "feed_xml_products.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/feed_xml_products.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/feed_xml_products.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.070Z",
+      "file": "feed_xml_categories.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/feed_xml_categories.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/feed_xml_categories.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.077Z",
+      "file": "pocenipc_stock.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/pocenipc_stock.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/pocenipc_stock.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.081Z",
+      "file": "feedcorto.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/feedcorto.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/feedcorto.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.085Z",
+      "file": "2017-09-25__09-09-19.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/2017-09-25__09-09-19.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/2017-09-25__09-09-19.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.089Z",
+      "file": "Ftp hostjars@valeja.com.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Ftp hostjars@valeja.com.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/Ftp hostjars@valeja.com.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.093Z",
+      "file": "2017-10-08__05-10-27.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/2017-10-08__05-10-27.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/2017-10-08__05-10-27.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.098Z",
+      "file": "stock_export_full_for_info@sunconcept.lv.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/stock_export_full_for_info@sunconcept.lv.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/stock_export_full_for_info@sunconcept.lv.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.103Z",
+      "file": "Ftp hostjars@valeja.com (1).xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Ftp hostjars@valeja.com (1).xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/Ftp hostjars@valeja.com (1).xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.107Z",
+      "file": "xml-feed.xml",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/xml-feed.xml",
+      "newDirectory": "D:/Downloads/_unknown/2017/xml-feed.xml"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.122Z",
+      "file": "debian-8.0.0-i386-netinst.tar.xz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/debian-8.0.0-i386-netinst.tar.xz",
+      "newDirectory": "D:/Downloads/_unknown/2019/debian-8.0.0-i386-netinst.tar.xz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.129Z",
+      "file": "LEDE.for.ArcherC2V1.complied.tar.xz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/LEDE.for.ArcherC2V1.complied.tar.xz",
+      "newDirectory": "D:/Downloads/_unknown/2019/LEDE.for.ArcherC2V1.complied.tar.xz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.144Z",
+      "file": "node-v10.16.0-linux-x64.tar.xz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/node-v10.16.0-linux-x64.tar.xz",
+      "newDirectory": "D:/Downloads/_unknown/2019/node-v10.16.0-linux-x64.tar.xz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.153Z",
+      "file": "node-v10.16.0-linux-x64.tar (1).xz",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/node-v10.16.0-linux-x64.tar (1).xz",
+      "newDirectory": "D:/Downloads/_unknown/2019/node-v10.16.0-linux-x64.tar (1).xz"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.160Z",
+      "file": "sosex_32.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/sosex_32.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/sosex_32.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.166Z",
+      "file": "setup_ns-atmosphere_programmer_v03.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/setup_ns-atmosphere_programmer_v03.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/setup_ns-atmosphere_programmer_v03.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.171Z",
+      "file": "InnoBF.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/InnoBF.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/InnoBF.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.176Z",
+      "file": "config.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/config.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/config.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.183Z",
+      "file": "nvm-setup (1).zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/nvm-setup (1).zip",
+      "newDirectory": "D:/Downloads/_archives/2018/nvm-setup (1).zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.188Z",
+      "file": "nvm-setup.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/nvm-setup.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/nvm-setup.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.193Z",
+      "file": "NetTraffic 1.59.0.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/NetTraffic 1.59.0.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/NetTraffic 1.59.0.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.198Z",
+      "file": "sosex_64.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/sosex_64.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/sosex_64.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.203Z",
+      "file": "Spectacle+1.2.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Spectacle+1.2.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Spectacle+1.2.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.208Z",
+      "file": "FreeVPN.me-OpenVPN-Bundle-April-2019.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/FreeVPN.me-OpenVPN-Bundle-April-2019.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/FreeVPN.me-OpenVPN-Bundle-April-2019.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.213Z",
+      "file": "food-price-index-february-2018-zipped-csv-tables.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/food-price-index-february-2018-zipped-csv-tables.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/food-price-index-february-2018-zipped-csv-tables.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.217Z",
+      "file": "Concert_One.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Concert_One.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Concert_One.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.221Z",
+      "file": "font-awesome-free.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/font-awesome-free.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/font-awesome-free.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.232Z",
+      "file": "human-handoff-bot-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/human-handoff-bot-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/human-handoff-bot-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.237Z",
+      "file": "malzilla_1.2.0.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/malzilla_1.2.0.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/malzilla_1.2.0.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.241Z",
+      "file": "Strings-GUI.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Strings-GUI.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/Strings-GUI.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.247Z",
+      "file": "Strings.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Strings.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/Strings.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.253Z",
+      "file": "strings2_x64_v1-2.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/strings2_x64_v1-2.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/strings2_x64_v1-2.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.258Z",
+      "file": "strings2_x86_v1-2.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/strings2_x86_v1-2.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/strings2_x86_v1-2.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.263Z",
+      "file": "PluginManager_v1.4.12_UNI.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/PluginManager_v1.4.12_UNI.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/PluginManager_v1.4.12_UNI.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.268Z",
+      "file": "Cofoundry.Samples.SimpleSite-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Cofoundry.Samples.SimpleSite-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/Cofoundry.Samples.SimpleSite-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.273Z",
+      "file": "civic2002.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/civic2002.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/civic2002.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.279Z",
+      "file": "Swiftpoint_Manager.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Swiftpoint_Manager.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Swiftpoint_Manager.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.283Z",
+      "file": "PluginManager_v1.4.12_x64.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/PluginManager_v1.4.12_x64.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/PluginManager_v1.4.12_x64.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.287Z",
+      "file": "networktrafficview-x64.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/networktrafficview-x64.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/networktrafficview-x64.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.292Z",
+      "file": "processhacker-2.39-bin.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/processhacker-2.39-bin.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/processhacker-2.39-bin.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.297Z",
+      "file": "tftpd32.452.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tftpd32.452.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/tftpd32.452.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.302Z",
+      "file": "tftpd64.464.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tftpd64.464.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/tftpd64.464.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.306Z",
+      "file": "ProcessMonitor.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ProcessMonitor.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/ProcessMonitor.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.311Z",
+      "file": "CDNSP-GUI-Bob-v6.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/CDNSP-GUI-Bob-v6.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/CDNSP-GUI-Bob-v6.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.316Z",
+      "file": "hactool-1.2.0.win.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/hactool-1.2.0.win.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/hactool-1.2.0.win.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.320Z",
+      "file": "EPUB.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/EPUB.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/EPUB.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.325Z",
+      "file": "echobot-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/echobot-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/echobot-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.330Z",
+      "file": "ngrok-stable-windows-amd64.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ngrok-stable-windows-amd64.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/ngrok-stable-windows-amd64.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.337Z",
+      "file": "c2_recovery.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/c2_recovery.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/c2_recovery.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.341Z",
+      "file": "tinfoil-fa49ddb.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/tinfoil-fa49ddb.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/tinfoil-fa49ddb.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.346Z",
+      "file": "c2_r50020.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/c2_r50020.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/c2_r50020.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.350Z",
+      "file": "Goldtree.v0.5.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Goldtree.v0.5.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Goldtree.v0.5.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.355Z",
+      "file": "dialogflow-dotnet-client-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/dialogflow-dotnet-client-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/dialogflow-dotnet-client-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.359Z",
+      "file": "qna-botframework-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/qna-botframework-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/qna-botframework-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.364Z",
+      "file": "deploymentscript.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/deploymentscript.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/deploymentscript.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.370Z",
+      "file": "r4intellij.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/r4intellij.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/r4intellij.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.376Z",
+      "file": "rcsetup153.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/rcsetup153.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/rcsetup153.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.383Z",
+      "file": "react-redux-realworld-example-app-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/react-redux-realworld-example-app-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/react-redux-realworld-example-app-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.388Z",
+      "file": "BotBuilder-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/BotBuilder-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/BotBuilder-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.394Z",
+      "file": "Op5T_Wallpapers_ns.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Op5T_Wallpapers_ns.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Op5T_Wallpapers_ns.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.402Z",
+      "file": "UnxUtils.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/UnxUtils.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/UnxUtils.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.408Z",
+      "file": "ReiNX_1.7.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ReiNX_1.7.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/ReiNX_1.7.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.413Z",
+      "file": "Op6T_Wallpapers.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Op6T_Wallpapers.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Op6T_Wallpapers.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.419Z",
+      "file": "Op6_Wallpapers.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Op6_Wallpapers.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Op6_Wallpapers.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.426Z",
+      "file": "BotBuilder-CognitiveServices-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/BotBuilder-CognitiveServices-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/BotBuilder-CognitiveServices-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.433Z",
+      "file": "bot-message-routing-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/bot-message-routing-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/bot-message-routing-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.438Z",
+      "file": "bootstrap-4.1.2-dist.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/bootstrap-4.1.2-dist.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/bootstrap-4.1.2-dist.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.445Z",
+      "file": "bootstrap-4.0.0-dist.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/bootstrap-4.0.0-dist.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/bootstrap-4.0.0-dist.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.449Z",
+      "file": "OP7Pro+Wallpapers.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/OP7Pro+Wallpapers.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/OP7Pro+Wallpapers.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.453Z",
+      "file": "viewstate-decoder-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/viewstate-decoder-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/viewstate-decoder-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.458Z",
+      "file": "DataGridViewAutoFilter.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/DataGridViewAutoFilter.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/DataGridViewAutoFilter.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.463Z",
+      "file": "vlc-2.2-64bit-win.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/vlc-2.2-64bit-win.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/vlc-2.2-64bit-win.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.469Z",
+      "file": "VPNBook.com-OpenVPN-PL226.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/VPNBook.com-OpenVPN-PL226.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/VPNBook.com-OpenVPN-PL226.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.474Z",
+      "file": "VPNBook.com-OpenVPN-US1.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/VPNBook.com-OpenVPN-US1.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/VPNBook.com-OpenVPN-US1.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.478Z",
+      "file": "biskeydumpv6.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/biskeydumpv6.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/biskeydumpv6.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.484Z",
+      "file": "B612.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/B612.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/B612.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.490Z",
+      "file": "AzureBot-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/AzureBot-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/AzureBot-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.495Z",
+      "file": "autosensitivity.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/autosensitivity.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/autosensitivity.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.500Z",
+      "file": "aspnet-core-examples-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/aspnet-core-examples-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/aspnet-core-examples-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.505Z",
+      "file": "Archer C2(US)_V1_170228.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Archer C2(US)_V1_170228.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Archer C2(US)_V1_170228.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.509Z",
+      "file": "WebTools.bundle.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/WebTools.bundle.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/WebTools.bundle.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.526Z",
+      "file": "RestaurantChatbot-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/RestaurantChatbot-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/RestaurantChatbot-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.541Z",
+      "file": "Roboto.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Roboto.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Roboto.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.547Z",
+      "file": "OP7_Wallpapers.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/OP7_Wallpapers.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/OP7_Wallpapers.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.558Z",
+      "file": "westworld.s02.e02.reunion.(2018).eng.1cd.(7344777).zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/westworld.s02.e02.reunion.(2018).eng.1cd.(7344777).zip",
+      "newDirectory": "D:/Downloads/_archives/2018/westworld.s02.e02.reunion.(2018).eng.1cd.(7344777).zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.565Z",
+      "file": "Goldleaf-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Goldleaf-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Goldleaf-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.573Z",
+      "file": "intermediator-bot-sample-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/intermediator-bot-sample-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/intermediator-bot-sample-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.578Z",
+      "file": "windows_8_small_cursors_by_derprogamer2000_d6y1csm_by_derprogamer2000-d7xalhm.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/windows_8_small_cursors_by_derprogamer2000_d6y1csm_by_derprogamer2000-d7xalhm.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/windows_8_small_cursors_by_derprogamer2000_d6y1csm_by_derprogamer2000-d7xalhm.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.585Z",
+      "file": "intermediator-bot-sample-master (1).zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/intermediator-bot-sample-master (1).zip",
+      "newDirectory": "D:/Downloads/_archives/2017/intermediator-bot-sample-master (1).zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.590Z",
+      "file": "ARA-Chatbot.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ARA-Chatbot.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/ARA-Chatbot.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.597Z",
+      "file": "MouseSpeed.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/MouseSpeed.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/MouseSpeed.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.603Z",
+      "file": "Wires.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Wires.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/Wires.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.609Z",
+      "file": "cudnn-9.0-windows10-x64-v7.4.2.24.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/cudnn-9.0-windows10-x64-v7.4.2.24.zip",
+      "newDirectory": "D:/Downloads/_archives/2019/cudnn-9.0-windows10-x64-v7.4.2.24.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.615Z",
+      "file": "life2017720pblurayx264-ytsag-english-110359.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/life2017720pblurayx264-ytsag-english-110359.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/life2017720pblurayx264-ytsag-english-110359.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.622Z",
+      "file": "WordPress-Plugin-Boilerplate-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/WordPress-Plugin-Boilerplate-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/WordPress-Plugin-Boilerplate-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.629Z",
+      "file": "SDSetup(1_26_19) (1).zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/SDSetup(1_26_19) (1).zip",
+      "newDirectory": "D:/Downloads/_archives/2019/SDSetup(1_26_19) (1).zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.635Z",
+      "file": "SDSetup(1_26_19).zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/SDSetup(1_26_19).zip",
+      "newDirectory": "D:/Downloads/_archives/2019/SDSetup(1_26_19).zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.641Z",
+      "file": "xyplorer_full.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/xyplorer_full.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/xyplorer_full.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.647Z",
+      "file": "CRUD.ASPCore.Reactjs.WebAPI.EF-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/CRUD.ASPCore.Reactjs.WebAPI.EF-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/CRUD.ASPCore.Reactjs.WebAPI.EF-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.656Z",
+      "file": "critical-thinking-export-2018-12-08-032313.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/critical-thinking-export-2018-12-08-032313.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/critical-thinking-export-2018-12-08-032313.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.664Z",
+      "file": "zerotwoxci-0.1.1.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/zerotwoxci-0.1.1.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/zerotwoxci-0.1.1.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.678Z",
+      "file": "Services.bundle-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/Services.bundle-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/Services.bundle-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.688Z",
+      "file": "ContosoScubaBot-master.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/ContosoScubaBot-master.zip",
+      "newDirectory": "D:/Downloads/_archives/2017/ContosoScubaBot-master.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.695Z",
+      "file": "[Pluralsight] JavaScript Getting Started [2018, ENG] [rutracker-5510323].zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/[Pluralsight] JavaScript Getting Started [2018, ENG] [rutracker-5510323].zip",
+      "newDirectory": "D:/Downloads/_archives/2018/[Pluralsight] JavaScript Getting Started [2018, ENG] [rutracker-5510323].zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.714Z",
+      "file": "consumers-price-index-september-2018-quarter.csv.zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/consumers-price-index-september-2018-quarter.csv.zip",
+      "newDirectory": "D:/Downloads/_archives/2018/consumers-price-index-september-2018-quarter.csv.zip"
+    },
+    {
+      "timestamp": "2019-11-03T04:39:15.735Z",
+      "file": "[Udemy] Modern JavaScript From The Beginning [2017, ENG] [rutracker-5496341].zip",
+      "operation": "move",
+      "originalDirectory": "D:/Downloads/[Udemy] Modern JavaScript From The Beginning [2017, ENG] [rutracker-5496341].zip",
+      "newDirectory": "D:/Downloads/_archives/2018/[Udemy] Modern JavaScript From The Beginning [2017, ENG] [rutracker-5496341].zip"
+    }
+  ],
+  "exceptionLog": [
+    {
+      "timestamp": "2019-11-03T04:34:09.410Z",
+      "title": "Error while moving existing files",
+      "message": "ENOENT: no such file or directory, mkdir 'D:/Downloads/_office/documents'",
+      "stackTrace": "Error: ENOENT: no such file or directory, mkdir 'D:/Downloads/_office/documents'\n    at Object.mkdirSync (fs.js:757:3)\n    at Function.FileUtil.EnsureDirExists (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:204:26)\n    at Function.FileUtil.EnsureTargetDirExists (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:211:18)\n    at Function.FileUtil.MoveFileByMappingConfig (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:147:18)\n    at Function.<anonymous> (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:112:55)\n    at step (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:33:23)\n    at Object.next (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:14:53)\n    at fulfilled (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:5:58)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+    },
+    {
+      "timestamp": "2019-11-03T04:35:56.556Z",
+      "title": "Error while moving existing files",
+      "message": "ENOENT: no such file or directory, mkdir 'D:/Downloads/_office/documents'",
+      "stackTrace": "Error: ENOENT: no such file or directory, mkdir 'D:/Downloads/_office/documents'\n    at Object.mkdirSync (fs.js:757:3)\n    at Function.FileUtil.EnsureDirExists (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:203:26)\n    at Function.FileUtil.EnsureTargetDirExists (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:210:18)\n    at Function.FileUtil.MoveFileByMappingConfig (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:156:18)\n    at Function.<anonymous> (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:112:55)\n    at step (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:33:23)\n    at Object.next (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:14:53)\n    at C:\\DEV\\files_ocd_js\\build\\fileUtil.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:4:12)"
+    },
+    {
+      "timestamp": "2019-11-03T04:37:50.704Z",
+      "title": "Error while moving existing files",
+      "message": "ENOENT: no such file or directory, mkdir 'D:/Downloads/_office/documents'",
+      "stackTrace": "Error: ENOENT: no such file or directory, mkdir 'D:/Downloads/_office/documents'\n    at Object.mkdirSync (fs.js:757:3)\n    at Function.FileUtil.EnsureDirExists (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:203:26)\n    at Function.FileUtil.EnsureTargetDirExists (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:210:18)\n    at Function.FileUtil.MoveFileByMappingConfig (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:156:18)\n    at Function.<anonymous> (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:112:55)\n    at step (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:33:23)\n    at Object.next (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:14:53)\n    at C:\\DEV\\files_ocd_js\\build\\fileUtil.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\DEV\\files_ocd_js\\build\\fileUtil.js:4:12)"
+    }
+  ]
+}

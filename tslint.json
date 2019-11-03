@@ -1,5 +1,5 @@
 {
-    "defaultSeverity": "error",
+    "defaultSeverity": "warn",
     "extends": [
         "tslint:recommended"
     ],
@@ -7,6 +7,31 @@
     "rules": {
         "no-console": false,
         "semicolon": true,
+        "quotemark": false,
+        "arrow-parens": false,
+        "object-literal-sort-keys": false,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": {
+                    "objects": "ignore",
+                    "arrays": "always",
+                    "functions": "never",
+                    "typeLiterals": "ignore"
+                },
+                "esSpecCompliant": true
+            }
+        ],
+        "member-ordering": [true, {"order": "fields-first"}],
+        "variable-name": [true,  "allow-leading-underscore", "allow-pascal-case"],
+        "one-line": false,
+        "curly": true,
+        "newline-before-return": true,
+        "no-debugger": false,
+        "typedef": [true, "call-signature"],
+        "no-any": true,
+        "one-variable-per-declaration": false,
+        "no-trailing-whitespace": false
     },
     "rulesDirectory": []
 }

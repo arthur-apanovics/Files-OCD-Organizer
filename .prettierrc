@@ -1,3 +1,9 @@
 {
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "semi": true,
+  "tslintIntegration": true,
+  "eslintIntegration": true,
+  "jsxSingleQuote": true,
   "singleQuote": true
 }
